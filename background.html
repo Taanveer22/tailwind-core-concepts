@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>background</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- old cdn -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- new cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
 </head>
 
 <body>
+
+    <h2 class="bg-red-200 mb-10">welcome to tailwind css</h2>
+
+
+    <div class="h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500 mb-5">
+        linear gradient 1
+    </div>
     
+    <div class="h-14 bg-linear-65 from-purple-500 to-pink-500 mb-15">
+        linerar gradient 2
+    </div>
+
+    <div class="size-18 rounded-full bg-radial from-pink-400 from-40% to-fuchsia-700 mb-10 p-20">
+        radial gradient
+    </div>
+
+    <div class="border border-yellow-500 bg-green-800">
+        <h2>title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto quis alias mollitia necessitatibus fugit ipsam dicta similique perspiciatis doloremque voluptatum reiciendis veritatis, tempora suscipit tempore vero? Quas, suscipit. Fugiat?</p>
+    </div>
     
 </body>
 </html>
